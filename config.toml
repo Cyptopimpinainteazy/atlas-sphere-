@@ -1,0 +1,29 @@
+# Atlas Sphere Configuration
+
+[chain]
+name = "Atlas Sphere"
+id = "atlas-sphere"
+
+[consensus]
+# Consensus configuration
+type = "aura"
+block_time = 6000  # milliseconds
+
+[evm]
+# EVM configuration
+enabled = true
+gas_limit = 15000000
+
+[svm]
+# SVM configuration
+enabled = true
+compute_budget = 200000
+
+[network]
+# Network configuration
+port = 30333
+rpc_port = 9933
+ws_port = 9944
+
+[telemetry]
+enabled = true
